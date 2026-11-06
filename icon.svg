@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Study decks">
+  <defs>
+    <linearGradient id="sd-bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f7cf6"/>
+      <stop offset="0.55" stop-color="#5867e8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="sd-card" x1="18" y1="18" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8efff"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#sd-bg)"/>
+  <path d="M18 22.5h24a4 4 0 0 1 4 4v19a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4v-19a4 4 0 0 1 4-4Z" fill="#26306b" opacity=".26" transform="translate(3 3)"/>
+  <rect x="14" y="18" width="34" height="28" rx="5" fill="url(#sd-card)"/>
+  <rect x="19" y="24" width="17" height="3.2" rx="1.6" fill="#8397e8"/>
+  <rect x="19" y="30.5" width="24" height="3.2" rx="1.6" fill="#b8c4f4"/>
+  <rect x="19" y="37" width="13" height="3.2" rx="1.6" fill="#b8c4f4"/>
+  <circle cx="44.5" cy="43.5" r="9" fill="#16b981"/>
+  <path d="m40.6 43.6 2.5 2.6 5.2-5.6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "name": "@local/study-decks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn PDFs, images and notes into active-recall cloze decks.",
+  "exports": {
+    ".": "./host-live.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cmaps/*": "./cmaps/*",
+    "./standard_fonts/*": "./standard_fonts/*"
+  },
+  "files": [
+    "host-live.js",
+    "host.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "cmaps/*",
+    "standard_fonts/*",
+    "vendor/unpdf/dist/**",
+    "vendor/unpdf/package.json",
+    "vendor/unpdf/LICENSE",
+    "LICENSES/*",
+    "scripts/*",
+    "src/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build:client": "node scripts/build-client.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: study-decks
+      name: '@local/study-decks'
